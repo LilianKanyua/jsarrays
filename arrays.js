@@ -15,9 +15,24 @@ console.log(arr3);
 
 var arr=["apple","mango","apple","orange","mango","mango"];
 
+function ridDuplicates(arr) {
+    return arr.filter((fruit, index)=> arr.indexOf(fruit) === index);
+    
+}
+console.log(ridDuplicates(arr));
 
+function duplicates(arr) {
+    return arr.filter((fruit, index)=> arr.indexOf(fruit)!== index);
+    
+}
+console.log(duplicates(arr));
 
 let arr5 =["the","way","x",4];
+ if(arr5.find = "way"){
+    console.log("way");
+ }else{
+    console.log("the searchword was not found")
+ }
 
-let word="sevink";
-console.log(word.sort);
+//let word="sevink";
+//console.log(word.sort);
